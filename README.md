@@ -150,28 +150,6 @@ The automated pipeline in `.github/workflows/ci.yml`:
 - [SQL Server](https://www.microsoft.com/sql-server/) / LocalDB
 - [Docker Desktop](https://www.docker.com/) *(optional, for containerised run)*
 
-### Running with .NET CLI
-```bash
-# Clone the repository
-git clone https://github.com/Lunga012/RaceDay-POE-Part1.git
-cd RaceDay-POE-Part1
-
-# Build the solution
-dotnet build RaceDay.sln
-
-# Run all unit tests
-dotnet test RaceDay.sln
-
-# Start the RESTful Web API (Terminal 1)
-cd src/RaceDay.Api
-dotnet run
-
-# Start the MVC Web Application (Terminal 2)
-cd ../RaceDay.Mvc
-dotnet run
-```
-Navigate to `https://localhost:7190` or `http://localhost:5190` in your web browser.
-
 ---
 
 ## 9. Video Presentation Demonstration Guide
